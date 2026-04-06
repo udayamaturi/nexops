@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Careers at NexOps IT Solutions - Join our global team of IT professionals and BPO specialists." />
+  <title>Careers | NexOps IT Solutions</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .filter-btn {
+      padding: 0.5rem 1.25rem;
+      background: var(--dark2);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius);
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      color: var(--gray-light);
+      cursor: pointer;
+      transition: var(--transition);
+      text-transform: uppercase;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: var(--orange);
+      color: var(--black);
+      border-color: var(--orange);
+    }
+    .benefit-card {
+      background: var(--dark);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 1.75rem;
+      text-align: center;
+      transition: var(--transition);
+    }
+    .benefit-card:hover { border-color: var(--border); }
+    .benefit-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+    .benefit-card h4 { margin-bottom: 0.4rem; font-size: 0.95rem; }
+    .benefit-card p { font-size: 0.83rem; color: var(--gray); }
+  </style>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23111'/><text y='22' x='4' font-size='20' font-weight='bold' fill='%23f5a623' font-family='Arial'>N</text></svg>" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon">N<span style="color:var(--white);font-size:0.6em;">⚙</span></div>
+      <div class="logo-text">
+        <span class="logo-name">Nex<span>Ops</span></span>
+        <span class="logo-tagline">IT Solutions</span>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <div class="nav-dropdown">
+        <span class="nav-link dropdown-toggle">Services <span class="arrow">▾</span></span>
+        <div class="dropdown-menu">
+          <a href="bpo.html" class="dropdown-item">Business Process Operations</a>
+          <a href="itconsulting.html" class="dropdown-item">IT Consulting</a>
+        </div>
+      </div>
+      <a href="careers.html" class="nav-link active">Careers</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+  <div class="mobile-menu">
+    <a href="../index.html" class="mobile-link">Home</a>
+    <a href="about.html" class="mobile-link">About Us</a>
+    <a href="bpo.html" class="mobile-link">BPO Services</a>
+    <a href="itconsulting.html" class="mobile-link">IT Consulting</a>
+    <a href="careers.html" class="mobile-link active">Careers</a>
+    <a href="contact.html" class="mobile-link">Contact</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a><span class="sep">/</span><span>Careers</span>
+    </div>
+    <div class="section-label">Join Our Team</div>
+    <h1>Build Your Career at <span class="orange">NexOps</span></h1>
+    <p>Join 1,200+ professionals across 40 countries who are shaping the future of enterprise technology and business operations. We invest in our people as much as our clients.</p>
+  </div>
+</section>
+
+<!-- CULTURE -->
+<section class="section">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;margin-bottom:4rem;">
+      <div>
+        <div class="section-label">Our Culture</div>
+        <h2>A Place Where <span class="orange">Talent Thrives</span></h2>
+        <p style="color:var(--gray-light);margin-top:1rem;line-height:1.8;">At NexOps, we believe great technology is built by great people. Our culture is one of continuous learning, diverse perspectives, and shared purpose. We celebrate wins together and tackle challenges as a team.</p>
+        <p style="color:var(--gray-light);margin-top:1rem;line-height:1.8;">Whether you're a seasoned consultant or starting your career, NexOps gives you the tools, mentorship, and opportunities to grow — globally.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div class="metric-card accent">
+          <div class="metric-num">1,200+</div>
+          <div class="metric-label">Team Members</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">40+</div>
+          <div class="metric-label">Countries</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">92%</div>
+          <div class="metric-label">Employee Retention</div>
+        </div>
+        <div class="metric-card accent">
+          <div class="metric-num">4.7★</div>
+          <div class="metric-label">Glassdoor Rating</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits -->
+    <div class="section-label" style="justify-content:center;text-align:center;">Benefits</div>
+    <h2 style="text-align:center;margin-bottom:2.5rem;">Why Work at <span class="orange">NexOps?</span></h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1.25rem;">
+      <div class="benefit-card">
+        <div class="benefit-icon">🌍</div>
+        <h4>Remote-Friendly</h4>
+        <p>Flexible hybrid & remote work options across all roles.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">📚</div>
+        <h4>Learning Budget</h4>
+        <p>$2,000 annual L&D budget for courses, certifications, conferences.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🏥</div>
+        <h4>Health Coverage</h4>
+        <p>Comprehensive medical, dental, and vision for you and family.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">💰</div>
+        <h4>Competitive Pay</h4>
+        <p>Market-leading salaries with performance bonuses and equity.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">✈️</div>
+        <h4>Global Mobility</h4>
+        <p>Opportunities to work across our international offices.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">🎯</div>
+        <h4>Career Growth</h4>
+        <p>Structured career ladders with mentorship and leadership programs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOB LISTINGS -->
+<section class="section" style="background:var(--dark2);">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:2rem;">
+      <div class="section-label" style="justify-content:center;">Open Positions</div>
+      <h2>Find Your <span class="orange">Next Role</span></h2>
+    </div>
+
+    <!-- Filters -->
+    <div style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;margin-bottom:2.5rem;">
+      <button class="filter-btn active" data-filter="all">All Departments</button>
+      <button class="filter-btn" data-filter="bpo">BPO Operations</button>
+      <button class="filter-btn" data-filter="it">IT Consulting</button>
+      <button class="filter-btn" data-filter="eng">Engineering</button>
+      <button class="filter-btn" data-filter="sales">Sales & Growth</button>
+    </div>
+
+    <!-- Jobs -->
+    <div class="job-card" data-dept="bpo">
+      <div class="job-icon">🎧</div>
+      <div class="job-info">
+        <h3 class="job-title">Senior Customer Support Specialist</h3>
+        <div class="job-meta">
+          <span class="job-tag">🏢 BPO Operations</span>
+          <span class="job-tag">📍 Remote / Hyderabad</span>
+          <span class="job-tag">⏱ Full-Time</span>
+          <span class="job-tag highlight">● Actively Hiring</span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-ghost" style="flex-shrink:0;font-size:0.85rem;padding:0.6rem 1.25rem;">Apply Now</a>
+    </div>
+
+    <div class="job-card" data-dept="it">
+      <div class="job-icon">☁️</div>
+      <div class="job-info">
+        <h3 class="job-title">Cloud Architect (AWS / Azure)</h3>
+        <div class="job-meta">
+          <span class="job-tag">🖥 IT Consulting</span>
+          <span class="job-tag">📍 London / Remote</span>
+          <span class="job-tag">⏱ Full-Time</span>
+          <span class="job-tag highlight">● Actively Hiring</span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-ghost" style="flex-shrink:0;font-size:0.85rem;padding:0.6rem 1.25rem;">Apply Now</a>
+    </div>
+
+    <div class="job-card" data-dept="it">
+      <div class="job-icon">🛡️</div>
+      <div class="job-info">
+        <h3 class="job-title">Cybersecurity Analyst</h3>
+        <div class="job-meta">
+          <span class="job-tag">🖥 IT Consulting</span>
+          <span class="job-tag">📍 Singapore / Hybrid</span>
+          <span class="job-tag">⏱ Full-Time</span>
+          <span class="job-tag highlight">● Actively Hiring</span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-ghost" style="flex-shrink:0;font-size:0.85rem;padding:0.6rem 1.25rem;">Apply Now</a>
+    </div>
+
+    <div class="job-card" data-dept="eng">
+      <div class="job-icon">⌨️</div>
+      <div class="job-info">
+        <h3 class="job-title">Full-Stack Developer (React / Node.js)</h3>
+        <div class="job-meta">
+          <span class="job-tag">💻 Engineering</span>
+          <span class="job-tag">📍 Remote (Global)</span>
+          <span class="job-tag">⏱ Full-Time</span>
+          <span class="job-tag highlight">● Actively Hiring</span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-ghost" style="flex-shrink:0;font-size:0.85rem;padding:0.6rem 1.25rem;">Apply Now</a>
+    </div>
+
+    <div class="job-card" data-dept="bpo">
+      <div class="job-icon">🗄️</div>
+      <div class="job-info">
+        <h3 class="job-title">Data Processing Team Lead</h3>
+        <div class="job-meta">
+          <span class="job-tag">🏢 BPO Operations</span>
+          <span class="job-tag">📍 Chicago / Hybrid</span>
+          <span class="job-tag">⏱ Full-Time</span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-ghost" style="flex-shrink:0;font-size:0.85rem;padding:0.6rem 1.25rem;">Apply Now</a>
+    </div>
+
+    <div class="job-card" data-dept="sales">
+      <div class="job-icon">📈</div>
+      <div class="job-info">
+        <h3 class="job-title">Enterprise Account Executive</h3>
+        <div class="job-meta">
+          <span class="job-tag">💼 Sales & Growth</span>
+          <span class="job-tag">📍 New York / Remote</span>
+          <span class="job-tag">⏱ Full-Time</span>
+          <span class="job-tag highlight">● Actively Hiring</span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-ghost" style="flex-shrink:0;font-size:0.85rem;padding:0.6rem 1.25rem;">Apply Now</a>
+    </div>
+
+    <div class="job-card" data-dept="eng">
+      <div class="job-icon">📊</div>
+      <div class="job-info">
+        <h3 class="job-title">Data Scientist / ML Engineer</h3>
+        <div class="job-meta">
+          <span class="job-tag">💻 Engineering</span>
+          <span class="job-tag">📍 Remote (APAC preferred)</span>
+          <span class="job-tag">⏱ Full-Time</span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-ghost" style="flex-shrink:0;font-size:0.85rem;padding:0.6rem 1.25rem;">Apply Now</a>
+    </div>
+
+    <div style="text-align:center;margin-top:2rem;padding:2rem;background:var(--dark);border:1px solid var(--border-subtle);border-radius:8px;">
+      <p style="color:var(--gray-light);margin-bottom:1rem;">Don't see a role that fits? We're always open to talented people.</p>
+      <a href="contact.html" class="btn btn-primary">Send a Spontaneous Application →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo" style="margin-bottom:0;">
+          <div class="logo-icon">N<span style="color:var(--white);font-size:0.6em;">⚙</span></div>
+          <div class="logo-text"><span class="logo-name">Nex<span>Ops</span></span><span class="logo-tagline">IT Solutions</span></div>
+        </a>
+        <p>Your trusted partner for operational excellence and global IT strategy.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="../index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="bpo.html" class="footer-link">BPO Services</a>
+          <a href="itconsulting.html" class="footer-link">IT Consulting</a>
+          <a href="careers.html" class="footer-link">Careers</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Departments</h4>
+        <div class="footer-links">
+          <a href="careers.html" class="footer-link">BPO Operations</a>
+          <a href="careers.html" class="footer-link">IT Consulting</a>
+          <a href="careers.html" class="footer-link">Engineering</a>
+          <a href="careers.html" class="footer-link">Sales & Growth</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="contact-items">
+          <div class="contact-item"><span class="ci-icon">📍</span><span>Address, Flowe, Suite 380</span></div>
+          <div class="contact-item"><span class="ci-icon">✉️</span><span>email@nexops.com</span></div>
+          <div class="contact-item"><span class="ci-icon">📞</span><span>(117) 235 7899</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">Copyright © 2025 NexOps IT Solutions. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-btn">in</a><a href="#" class="social-btn">𝕏</a><a href="#" class="social-btn">⌥</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<button class="scroll-top">↑</button>
+<script src="../js/main.js"></script>
+</body>
+</html>
