@@ -171,10 +171,10 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   gap: 0.75rem;
 }
 .logo-icon {
-  width: 200px; height: 200px;
+  width: 100px; height: 100px;
   background: var(--dark2);
   border: 1.5px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
