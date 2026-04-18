@@ -171,7 +171,7 @@ h4 { font-size: 1.1rem; font-weight: 600; }
   gap: 0.75rem;
 }
 .logo-icon {
-  width: 44px; height: 44px;
+  width: 88px; height: 88px;
   background: var(--dark2);
   border: 1.5px solid var(--border);
   border-radius: 6px;
